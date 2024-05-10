@@ -33,6 +33,30 @@
     display: none;
   }
 }
+.tablet {
+  background-image: url("assets/background1.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+.nieuw {
+  background-image: url("assets/background2.jpg");
+  background-size: contain;
+  background-position: left;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
+.pen {
+  background-image: url("assets/background3.jpg");
+  background-size: contain;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-color: #fff;
+}
+
 body {
   background: #000;
   width: 1920px;
@@ -40,7 +64,7 @@ body {
   overflow: hidden;
 }
 body #statisch_scherm1 {
-  background-color: #F5F5F5;
+  background-color: #f5f5f5;
   width: 393px;
   height: 852px;
   margin: 100px 700px;
@@ -86,9 +110,6 @@ body #statisch_scherm1 .producten {
   overflow-x: auto;
   overflow-y: hidden;
 }
-body #statisch_scherm1 .producten:hover {
-  scrollbar-width: thin;
-}
 body #statisch_scherm1 .producten .product {
   display: flex;
   min-width: 272px;
@@ -101,8 +122,6 @@ body #statisch_scherm1 .producten .product {
   align-items: flex-end;
   gap: 42px;
   border-radius: 8px;
-  background-image: url("assets/background1.png");
-  background-position: center;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
 }
 body #statisch_scherm1 .producten .product svg {
@@ -163,7 +182,6 @@ body #statisch_scherm1 .producten #nieuw, body #statisch_scherm1 .producten .nie
   align-items: flex-end;
   flex-shrink: 0;
   border-radius: 8px;
-  background-image: url("assets/background1.png");
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
 }
 body #statisch_scherm1 .producten #nieuw svg, body #statisch_scherm1 .producten .nieuw svg {
@@ -226,9 +244,6 @@ body #statisch_scherm1 .newprojecten {
   overflow-x: auto;
   overflow-y: hidden;
 }
-body #statisch_scherm1 .newprojecten:hover {
-  scrollbar-width: thin;
-}
 body #statisch_scherm1 .newprojecten .newproject {
   display: flex;
   width: 185px;
@@ -238,6 +253,8 @@ body #statisch_scherm1 .newprojecten .newproject {
   align-items: center;
   flex-shrink: 0;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
+  background-color: #fff;
+  border-radius: 8px;
 }
 body #statisch_scherm1 .newprojecten .newproject svg {
   width: 24px;
@@ -321,7 +338,7 @@ body #statisch_scherm1 .projecten {
   height: 280px;
   flex-shrink: 0;
   margin: 20px 40px;
-  overflow: auto;
+  overflow: hidden;
 }
 body #statisch_scherm1 .projecten div {
   display: inline-flex;
@@ -397,7 +414,7 @@ body #statisch_scherm1 nav div h5 {
 body #select {
   display: none;
   width: 393px;
-  height: 852px;
+  height: 800px;
   position: absolute;
   bottom: 100px;
   left: 700px;
@@ -517,7 +534,7 @@ body #select #productenkoppelen #rechthoek p {
 body #pen {
   display: none;
   width: 393px;
-  height: 852px;
+  height: 800px;
   position: absolute;
   bottom: 100px;
   left: 700px;
@@ -830,7 +847,7 @@ body #pijltoetsenpen button, body #pijltoetsenconnect button {
 body #bluetooth {
   display: none;
   width: 393px;
-  height: 852px;
+  height: 800px;
   flex-shrink: 0;
   border-radius: 32px;
   background: #D1B7FF;
@@ -1166,13 +1183,13 @@ body #bluetooth #newdevice div #allow {
 body #succes {
   display: none;
   width: 393px;
-  height: 852px;
+  height: 800px;
   flex-shrink: 0;
   border-radius: 32px;
   background: #D1B7FF;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
   position: absolute;
-  top: 100px;
+  bottom: 100px;
   left: 700px;
 }
 body #succes #succesinfo {
@@ -1244,7 +1261,7 @@ body #succes #loading svg {
 body #calib_start {
   display: none;
   width: 393px;
-  height: 852px;
+  height: 800px;
   padding: 80px 40px 66px 0;
   flex-direction: column;
   justify-content: flex-end;
@@ -1395,9 +1412,6 @@ body #statisch_scherm2 .producten {
   flex-direction: row;
   overflow-x: auto;
 }
-body #statisch_scherm2 .producten:hover {
-  scrollbar-width: thin;
-}
 body #statisch_scherm2 .producten .product {
   display: flex;
   min-width: 272px;
@@ -1410,8 +1424,6 @@ body #statisch_scherm2 .producten .product {
   align-items: flex-end;
   gap: 42px;
   border-radius: 8px;
-  background-image: url("assets/background1.png");
-  background-position: center;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
 }
 body #statisch_scherm2 .producten .product svg {
@@ -1472,7 +1484,6 @@ body #statisch_scherm2 .producten #nieuw, body #statisch_scherm2 .producten .nie
   align-items: flex-end;
   flex-shrink: 0;
   border-radius: 8px;
-  background-image: url("assets/background1.png");
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
 }
 body #statisch_scherm2 .producten #nieuw svg, body #statisch_scherm2 .producten .nieuw svg {
@@ -1534,9 +1545,6 @@ body #statisch_scherm2 .newprojecten {
   margin-left: 40px;
   overflow-x: auto;
 }
-body #statisch_scherm2 .newprojecten:hover {
-  scrollbar-width: thin;
-}
 body #statisch_scherm2 .newprojecten .newproject {
   display: flex;
   width: 185px;
@@ -1546,6 +1554,8 @@ body #statisch_scherm2 .newprojecten .newproject {
   align-items: center;
   flex-shrink: 0;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
+  background-color: #fff;
+  border-radius: 8px;
 }
 body #statisch_scherm2 .newprojecten .newproject svg {
   width: 24px;
@@ -1629,7 +1639,7 @@ body #statisch_scherm2 .projecten {
   height: 280px;
   flex-shrink: 0;
   margin: 20px 40px;
-  overflow: auto;
+  overflow: hidden;
 }
 body #statisch_scherm2 .projecten div {
   display: inline-flex;
