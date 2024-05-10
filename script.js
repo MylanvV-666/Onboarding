@@ -49,18 +49,26 @@ buttoncalibreren.addEventListener("click", end)
 /*functies*/
 function selectAddOnvisible() {
     selectAddOn.style.display="block";
+    selectAddOn.style.animationName="omhoog";
+    selectAddOn.style.animationDuration="0.5s";
 }
 
 function selectscribbl() {
     pen.style.display="block";
     penStep1.style.display="block";
-    pijltjespen.style.display="block";
+    pijltjespen.style.display="flex";
+    pen.style.animationName="omhoog";
+    pen.style.animationDuration="0.5s";
 }
 
 function connecteren() {
     bluetooth.style.display="block";
     connect1.style.display="block";
-    pijltjesconnect.style.display="block";
+
+    bluetooth.style.animationName="omhoog";
+    bluetooth.style.animationDuration="0.5s"
+
+    pijltjesconnect.style.display="flex";
     pijltjespen.style.display="none";
 }
 
@@ -94,18 +102,23 @@ function switchenconnectrechts() {
 
 function toStep3() {
     penStep3.style.display="block";
+    penStep3.style.animationName="fade";
+    penStep3.style.animationDuration="0.5s";
     penStep1.style.display="none";
     penStep2.style.display="none";
 }
 
 function switchenpenlinks() {
     if (penStep1.style.display === "block") {
+        pen.style.animationName="beneden";
+        pen.style.animationDuration="0.5s";
+        pen.style.overflow="hidden";
         pen.style.display="none";
         pijltjespen.style.display="none";
     }
     else if (penStep2.style.display === "block") {
-        penStep1.style.display="block";
         penStep2.style.display="none";
+        penStep1.style.display="block";
     }
     else if (penStep3.style.display === "block") {
         penStep2.style.display="block";
@@ -128,6 +141,9 @@ function switchenpenrechts() {
 }
 
 function terugNaarHome() {
+    selectAddOn.style.animationName="beneden";
+    selectAddOn.style.animationDuration="0.5s";
+    calibrerenvoorscherm.style.overflow="hidden";
     selectAddOn.style.display="none";
 }
 
@@ -147,11 +163,19 @@ function tosucces() {
 
 function afterdelay() {
     succes.style.display="none";
-    calibrerenvoorscherm.style.display="flex";
+    calibrerenvoorscherm.style.animationName="omhoog";
+    calibrerenvoorscherm.style.animationDuration="0.5s";
+    calibrerenvoorscherm.style.display="block";
+
 }
 
 function end() {
+    calibrerenvoorscherm.style.animationName="beneden";
+    calibrerenvoorscherm.style.animationDuration="0.5s";
+    calibrerenvoorscherm.style.overflow="hidden";
     calibrerenvoorscherm.style.display="none";
+    statischschermmetpen.style.animationName="omhoog";
+    statischschermmetpen.style.animationDuration="0.5s";
     statischschermmetpen.style.display="block";
     scribbl.style.display="none";
     pen.style.display="none";

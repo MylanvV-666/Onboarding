@@ -7,6 +7,32 @@
   overflow-scrolling: auto;
 }
 
+@keyframes omhoog {
+  0% {
+    display: none;
+  }
+  10% {
+    height: 0;
+    display: block;
+  }
+  100% {
+    display: block;
+    height: 852px;
+  }
+}
+@keyframes beneden {
+  0% {
+    height: 852px;
+    display: block;
+  }
+  90% {
+    height: 0;
+    display: block;
+  }
+  100% {
+    display: none;
+  }
+}
 body {
   background: #000;
   width: 1920px;
@@ -16,10 +42,10 @@ body {
 body #statisch_scherm1 {
   background-color: #F5F5F5;
   width: 393px;
-  height: 790px;
+  height: 852px;
   margin: 100px 700px;
-  overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: hidden;
+  border-radius: 32px;
 }
 body #statisch_scherm1 header {
   margin: 80px 40px 20px 40px;
@@ -59,6 +85,9 @@ body #statisch_scherm1 .producten {
   flex-direction: row;
   overflow-x: auto;
   overflow-y: hidden;
+}
+body #statisch_scherm1 .producten:hover {
+  scrollbar-width: thin;
 }
 body #statisch_scherm1 .producten .product {
   display: flex;
@@ -197,6 +226,9 @@ body #statisch_scherm1 .newprojecten {
   overflow-x: auto;
   overflow-y: hidden;
 }
+body #statisch_scherm1 .newprojecten:hover {
+  scrollbar-width: thin;
+}
 body #statisch_scherm1 .newprojecten .newproject {
   display: flex;
   width: 185px;
@@ -286,9 +318,10 @@ body #statisch_scherm1 .newprojecten .formaten div h6 {
 }
 body #statisch_scherm1 .projecten {
   width: 313px;
-  height: 392px;
+  height: 280px;
   flex-shrink: 0;
   margin: 20px 40px;
+  overflow: auto;
 }
 body #statisch_scherm1 .projecten div {
   display: inline-flex;
@@ -328,7 +361,7 @@ body #statisch_scherm1 .projecten div div p {
 }
 body #statisch_scherm1 nav {
   position: fixed;
-  bottom: 200px;
+  bottom: 150px;
   margin: 0 40px;
   width: 312px;
   display: flex;
@@ -364,19 +397,20 @@ body #statisch_scherm1 nav div h5 {
 body #select {
   display: none;
   width: 393px;
-  height: 710px;
+  height: 852px;
   position: absolute;
-  top: 180px;
+  bottom: 100px;
   left: 700px;
-  border-radius: 32px 32px 0 0;
+  border-radius: 32px;
   background: #FFF;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
+  overflow: hidden;
 }
 body #select #selectheader {
   width: 312px;
   height: 64px;
   flex-shrink: 0;
-  margin: 32px auto 0 auto;
+  margin: 80px auto 0 auto;
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -462,7 +496,6 @@ body #select #productenkoppelen #rechthoek img {
   align-self: stretch;
   width: 310px;
   border-radius: 8px;
-  border: 1px solid #ECECEC;
   background: #D9D9D9;
 }
 body #select #productenkoppelen #rechthoek h5 {
@@ -484,11 +517,11 @@ body #select #productenkoppelen #rechthoek p {
 body #pen {
   display: none;
   width: 393px;
-  height: 770px;
+  height: 852px;
   position: absolute;
-  top: 120px;
+  bottom: 100px;
   left: 700px;
-  border-radius: 32px 32px 0 0;
+  border-radius: 32px;
   background: #FF5635;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
 }
@@ -497,7 +530,7 @@ body #pen #pen_stap_1 {
   width: 312px;
   height: 676px;
   flex-shrink: 0;
-  margin: 36px 0 0 30px;
+  margin: 80px 0 0 30px;
 }
 body #pen #pen_stap_1 #mainpenstap1 .welcome {
   color: #D1B7FF;
@@ -537,7 +570,7 @@ body #pen #pen_stap_1 .bottompen {
   justify-content: space-between;
   align-items: center;
   flex-shrink: 0;
-  margin-top: 100px;
+  margin-top: 130px;
 }
 body #pen #pen_stap_1 .bottompen div {
   display: flex;
@@ -590,6 +623,7 @@ body #pen #pen_stap_2 {
   flex-shrink: 0;
   position: absolute;
   top: 0;
+  margin: 80px 0 0 0;
 }
 body #pen #pen_stap_2 #mainpenstap2 img {
   width: 333px;
@@ -618,7 +652,7 @@ body #pen #pen_stap_2 #mainpenstap2 h1 {
   font-style: normal;
   font-weight: 500;
   line-height: 32px;
-  margin-left: 30px;
+  margin: 0 0 15px 30px;
 }
 body #pen #pen_stap_2 #mainpenstap2 p {
   width: 311px;
@@ -637,8 +671,8 @@ body #pen #pen_stap_2 .bottompen {
   justify-content: space-between;
   align-items: center;
   flex-shrink: 0;
-  margin-top: 100px;
-  margin-left: 30px;
+  margin-top: 130px;
+  margin: 79px 30px;
 }
 body #pen #pen_stap_2 .bottompen div {
   display: flex;
@@ -691,7 +725,7 @@ body #pen #pen_stap_3 {
   flex-shrink: 0;
   position: absolute;
   top: 0;
-  margin: 36px 0 0 30px;
+  margin: 70px 0 0 30px;
 }
 body #pen #pen_stap_3 #mainpenstap3 img {
   width: 333px;
@@ -740,7 +774,7 @@ body #pen #pen_stap_3 #bottomstap3pen button {
   border-radius: 100px;
   background: #F7F7F5;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
-  margin: 80px 130px 20px 130px;
+  margin: 70px 130px 20px 130px;
 }
 body #pen #pen_stap_3 #bottomstap3pen button span {
   text-align: center;
@@ -778,7 +812,11 @@ body #pen #pen_stap_3 #bottomstap3pen div .actieveslide {
 }
 body #pijltoetsenpen, body #pijltoetsenconnect {
   display: none;
-  margin: 0 850px;
+  justify-content: space-between;
+  width: 150px;
+  position: absolute;
+  bottom: 20px;
+  left: 820px;
 }
 body #pijltoetsenpen button, body #pijltoetsenconnect button {
   width: 50px;
@@ -792,20 +830,21 @@ body #pijltoetsenpen button, body #pijltoetsenconnect button {
 body #bluetooth {
   display: none;
   width: 393px;
-  height: 770px;
+  height: 852px;
   flex-shrink: 0;
-  border-radius: 32px 32px 0 0;
+  border-radius: 32px;
   background: #D1B7FF;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
   position: absolute;
-  top: 120px;
+  bottom: 100px;
   left: 700px;
 }
 body #bluetooth #bluetooth_stap_1 {
+  display: none;
   width: 312px;
   height: 676px;
   flex-shrink: 0;
-  margin-left: 20px;
+  margin: 80px 20px 0 20px;
 }
 body #bluetooth #bluetooth_stap_1 #mainconnect1 img {
   width: 351px;
@@ -879,7 +918,7 @@ body #bluetooth #bluetooth_stap_2 {
   flex-shrink: 0;
   margin-left: 37px;
   position: absolute;
-  top: 0;
+  top: 80px;
 }
 body #bluetooth #bluetooth_stap_2 #mainconnect2 img {
   width: 360px;
@@ -950,7 +989,7 @@ body #bluetooth #bluetooth_stap_3 {
   flex-shrink: 0;
   margin-left: 37px;
   position: absolute;
-  top: 0;
+  top: 80px;
 }
 body #bluetooth #bluetooth_stap_3 #mainconnect3 img {
   width: 385px;
@@ -1056,7 +1095,7 @@ body #bluetooth #newdevice {
   flex-direction: column;
   justify-content: space-between;
   position: absolute;
-  top: 250px;
+  top: 300px;
   left: 47px;
 }
 body #bluetooth #newdevice #newinfo {
@@ -1127,19 +1166,20 @@ body #bluetooth #newdevice div #allow {
 body #succes {
   display: none;
   width: 393px;
-  height: 770px;
+  height: 852px;
   flex-shrink: 0;
-  border-radius: 32px 32px 0 0;
+  border-radius: 32px;
   background: #D1B7FF;
   box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
   position: absolute;
-  top: 120px;
+  top: 100px;
   left: 700px;
 }
 body #succes #succesinfo {
   width: 312px;
   height: 676px;
   flex-shrink: 0;
+  margin-top: 80px;
 }
 body #succes #succesinfo img {
   width: 388px;
@@ -1204,15 +1244,16 @@ body #succes #loading svg {
 body #calib_start {
   display: none;
   width: 393px;
-  height: 790px;
-  padding: 72px 40px 66px 41px;
+  height: 852px;
+  padding: 80px 40px 66px 0;
   flex-direction: column;
   justify-content: flex-end;
   align-items: center;
   background: #F5F5F5;
   position: absolute;
-  top: 100px;
+  bottom: 100px;
   left: 700px;
+  border-radius: 32px;
 }
 body #calib_start #calibmain h6 {
   width: 312px;
@@ -1256,7 +1297,7 @@ body #calib_start #calibmain p {
   margin-left: 40px;
 }
 body #calib_start #calibbottom {
-  margin-top: 50px;
+  margin: 50px 0 0 36px;
   display: flex;
   width: 311px;
   height: 37.491px;
@@ -1311,11 +1352,10 @@ body #statisch_scherm2 {
   position: absolute;
   background-color: #F5F5F5;
   width: 393px;
-  height: 790px;
+  height: 852px;
   margin: 100px 700px;
-  overflow-x: hidden;
-  overflow-y: auto;
-  z-index: 1;
+  overflow-y: hidden;
+  border-radius: 32px;
 }
 body #statisch_scherm2 header {
   margin: 80px 40px 20px 40px;
@@ -1354,7 +1394,9 @@ body #statisch_scherm2 .producten {
   display: flex;
   flex-direction: row;
   overflow-x: auto;
-  overflow-y: hidden;
+}
+body #statisch_scherm2 .producten:hover {
+  scrollbar-width: thin;
 }
 body #statisch_scherm2 .producten .product {
   display: flex;
@@ -1491,7 +1533,9 @@ body #statisch_scherm2 .newprojecten {
   gap: 8px;
   margin-left: 40px;
   overflow-x: auto;
-  overflow-y: hidden;
+}
+body #statisch_scherm2 .newprojecten:hover {
+  scrollbar-width: thin;
 }
 body #statisch_scherm2 .newprojecten .newproject {
   display: flex;
@@ -1582,9 +1626,10 @@ body #statisch_scherm2 .newprojecten .formaten div h6 {
 }
 body #statisch_scherm2 .projecten {
   width: 313px;
-  height: 392px;
+  height: 280px;
   flex-shrink: 0;
   margin: 20px 40px;
+  overflow: auto;
 }
 body #statisch_scherm2 .projecten div {
   display: inline-flex;
@@ -1624,7 +1669,7 @@ body #statisch_scherm2 .projecten div div p {
 }
 body #statisch_scherm2 nav {
   position: fixed;
-  bottom: 200px;
+  bottom: 150px;
   margin: 0 40px;
   width: 312px;
   display: flex;
