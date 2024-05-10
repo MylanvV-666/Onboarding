@@ -1,0 +1,10 @@
+{
+  "dependencies": {
+    "remixicon": "^4.2.0",
+    "sass": "^1.77.0",
+    "scss": "^0.2.4"
+  },
+  "scripts": {
+    "dev": "sass --watch style.scss css/style.css"
+  }
+}

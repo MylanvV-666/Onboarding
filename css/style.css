@@ -1,0 +1,1661 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  scrollbar-width: none;
+  scroll-behavior: smooth;
+  overflow-scrolling: auto;
+}
+
+body {
+  background: #000;
+  width: 1920px;
+  height: 1080px;
+  overflow: hidden;
+}
+body #statisch_scherm1 {
+  background-color: #F5F5F5;
+  width: 393px;
+  height: 790px;
+  margin: 100px 700px;
+  overflow-x: hidden;
+  overflow-y: auto;
+}
+body #statisch_scherm1 header {
+  margin: 80px 40px 20px 40px;
+  width: 312px;
+  height: 50px;
+}
+body #statisch_scherm1 header div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+}
+body #statisch_scherm1 header div h2 {
+  color: #C4BFBF;
+  font-family: monospace, "Roboto Mono";
+  font-size: 18px;
+  line-height: 20px;
+}
+body #statisch_scherm1 header div svg {
+  width: 20px;
+  height: 20px;
+  color: #C4BFBF;
+}
+body #statisch_scherm1 header h1 {
+  font-family: monospace, "Roboto Mono";
+  font-size: 32px;
+  line-height: 32px;
+  background: linear-gradient(90deg, #D1B7FF 0%, #FF5635 100%);
+  background-clip: text;
+  color: transparent;
+}
+body #statisch_scherm1 .producten {
+  margin: 0 0 20px 40px;
+  width: 312px;
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+body #statisch_scherm1 .producten .product {
+  display: flex;
+  min-width: 272px;
+  max-width: 272px;
+  min-height: 134px;
+  max-height: 134px;
+  padding: 8px;
+  margin-right: 10px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 42px;
+  border-radius: 8px;
+  background-image: url("assets/background1.png");
+  background-position: center;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
+}
+body #statisch_scherm1 .producten .product svg {
+  width: 16px;
+  height: 16px;
+  color: #C4BFBF;
+}
+body #statisch_scherm1 .producten .product div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+body #statisch_scherm1 .producten .product div h6 {
+  color: #FA9;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+body #statisch_scherm1 .producten .product div h5 {
+  color: #150101;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+body #statisch_scherm1 .producten .product div div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+}
+body #statisch_scherm1 .producten .product div div svg {
+  width: 7px;
+  height: 7px;
+  fill: #7BF243;
+}
+body #statisch_scherm1 .producten .product div div p {
+  color: #C4BFBF;
+  font-family: monospace, "Roboto Mono";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+body #statisch_scherm1 .producten #nieuw, body #statisch_scherm1 .producten .nieuw {
+  display: flex;
+  min-width: 272px;
+  max-width: 272px;
+  min-height: 134px;
+  max-height: 134px;
+  padding: 8px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-image: url("assets/background1.png");
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
+}
+body #statisch_scherm1 .producten #nieuw svg, body #statisch_scherm1 .producten .nieuw svg {
+  width: 16.667px;
+  height: 16.667px;
+  flex-shrink: 0;
+  color: #C4BFBF;
+}
+body #statisch_scherm1 .producten #nieuw div, body #statisch_scherm1 .producten .nieuw div {
+  display: flex;
+  height: 77px;
+  padding: 0 0 8px 32px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+body #statisch_scherm1 .producten #nieuw div svg, body #statisch_scherm1 .producten .nieuw div svg {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  color: black;
+}
+body #statisch_scherm1 .producten #nieuw div h6, body #statisch_scherm1 .producten .nieuw div h6 {
+  color: #FA9;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+body #statisch_scherm1 .producten #nieuw div h5, body #statisch_scherm1 .producten .nieuw div h5 {
+  color: #150101;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+body #statisch_scherm1 .producten #nieuw:hover, body #statisch_scherm1 .producten .nieuw:hover {
+  border: 1.5px solid #FFAA99;
+}
+body #statisch_scherm1 h3 {
+  color: #4F4141;
+  font-family: monospace, "Roboto Mono";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin-left: 40px;
+}
+body #statisch_scherm1 .newprojecten {
+  display: flex;
+  width: 352px;
+  height: 80px;
+  align-content: center;
+  gap: 8px;
+  margin-left: 40px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+body #statisch_scherm1 .newprojecten .newproject {
+  display: flex;
+  width: 185px;
+  height: 68px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
+}
+body #statisch_scherm1 .newprojecten .newproject svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+  flex-shrink: 0;
+  color: black;
+}
+body #statisch_scherm1 .newprojecten .newproject div {
+  display: flex;
+  width: 93px;
+  height: 36px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+body #statisch_scherm1 .newprojecten .newproject div h5 {
+  color: #4F4141;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+body #statisch_scherm1 .newprojecten .newproject div h6 {
+  color: #FA9;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+body #statisch_scherm1 .newprojecten .formaten {
+  display: flex;
+  width: 185px;
+  height: 68px;
+  padding: 16px 12px 16px 24px;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FF5635;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
+}
+body #statisch_scherm1 .newprojecten .formaten .box {
+  width: 42px;
+  height: 52px;
+  flex-shrink: 0;
+  background: #F7F7F5;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
+}
+body #statisch_scherm1 .newprojecten .formaten div {
+  display: flex;
+  width: 93px;
+  height: 36px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+body #statisch_scherm1 .newprojecten .formaten div h5 {
+  color: #4F4141;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+body #statisch_scherm1 .newprojecten .formaten div h6 {
+  color: #F7F7F5;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  font-variant: small-caps;
+}
+body #statisch_scherm1 .projecten {
+  width: 313px;
+  height: 392px;
+  flex-shrink: 0;
+  margin: 20px 40px;
+}
+body #statisch_scherm1 .projecten div {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 4px 0;
+}
+body #statisch_scherm1 .projecten div img {
+  width: 112px;
+  height: 72px;
+  border-radius: 8px;
+}
+body #statisch_scherm1 .projecten div div {
+  display: flex;
+  width: 192px;
+  height: 36px;
+  padding-right: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+body #statisch_scherm1 .projecten div div h5 {
+  color: #4F4141;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+body #statisch_scherm1 .projecten div div p {
+  color: #D1B7FF;
+  font-family: monospace, "Roboto Mono";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+body #statisch_scherm1 nav {
+  position: fixed;
+  bottom: 200px;
+  margin: 0 40px;
+  width: 312px;
+  display: flex;
+  padding: 4px 20px;
+  justify-content: space-between;
+  align-content: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: #F7F7F5;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
+}
+body #statisch_scherm1 nav div {
+  display: flex;
+  width: 80px;
+  padding: 8px;
+  flex-direction: column;
+  align-items: center;
+}
+body #statisch_scherm1 nav div svg {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+body #statisch_scherm1 nav div h5 {
+  color: #4F4141;
+  text-align: center;
+  font-family: monospace, "Roboto Mono";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+body #select {
+  display: none;
+  width: 393px;
+  height: 710px;
+  position: absolute;
+  top: 180px;
+  left: 700px;
+  border-radius: 32px 32px 0 0;
+  background: #FFF;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
+}
+body #select #selectheader {
+  width: 312px;
+  height: 64px;
+  flex-shrink: 0;
+  margin: 32px auto 0 auto;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+}
+body #select #selectheader div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+body #select #selectheader div h1 {
+  color: #4F4141;
+  font-family: monospace, "Roboto Mono";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+}
+body #select #selectheader div svg {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  color: #C4BFBF;
+}
+body #select #selectheader p {
+  width: 312px;
+  color: #C4BFBF;
+  font-family: monospace, "Roboto Mono";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+body #select #productenkoppelen {
+  width: 312px;
+  height: 444px;
+  flex-shrink: 0;
+  margin: 20px auto;
+}
+body #select #productenkoppelen div {
+  display: flex;
+  flex-direction: row;
+}
+body #select #productenkoppelen div div, body #select #productenkoppelen div a {
+  display: inline-flex;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+  width: 152px;
+  height: 150px;
+}
+body #select #productenkoppelen div div img, body #select #productenkoppelen div a img {
+  width: 152px;
+  height: 97px;
+  border-radius: 8px;
+}
+body #select #productenkoppelen div div h5, body #select #productenkoppelen div a h5 {
+  color: #4F4141;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+body #select #productenkoppelen div div p, body #select #productenkoppelen div a p {
+  color: #D1B7FF;
+  font-family: monospace, "Roboto Mono";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+body #select #productenkoppelen #rechthoek {
+  display: flex;
+  width: 310px;
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 7px;
+  margin: 20px auto;
+}
+body #select #productenkoppelen #rechthoek img {
+  height: 97px;
+  align-self: stretch;
+  width: 310px;
+  border-radius: 8px;
+  border: 1px solid #ECECEC;
+  background: #D9D9D9;
+}
+body #select #productenkoppelen #rechthoek h5 {
+  color: #4F4141;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+body #select #productenkoppelen #rechthoek p {
+  color: #D1B7FF;
+  font-family: monospace, "Roboto Mono";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+body #pen {
+  display: none;
+  width: 393px;
+  height: 770px;
+  position: absolute;
+  top: 120px;
+  left: 700px;
+  border-radius: 32px 32px 0 0;
+  background: #FF5635;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
+}
+body #pen #pen_stap_1 {
+  display: none;
+  width: 312px;
+  height: 676px;
+  flex-shrink: 0;
+  margin: 36px 0 0 30px;
+}
+body #pen #pen_stap_1 #mainpenstap1 .welcome {
+  color: #D1B7FF;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  width: 240px;
+}
+body #pen #pen_stap_1 #mainpenstap1 h1 {
+  color: #F7F7F5;
+  font-family: monospace, "Roboto Mono";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+}
+body #pen #pen_stap_1 #mainpenstap1 img {
+  width: 366px;
+  height: 352px;
+  flex-shrink: 0;
+}
+body #pen #pen_stap_1 #mainpenstap1 p {
+  color: #ECECEC;
+  font-family: monospace, "Roboto Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  width: 240px;
+}
+body #pen #pen_stap_1 .bottompen {
+  display: flex;
+  width: 311px;
+  height: 36px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  margin-top: 100px;
+}
+body #pen #pen_stap_1 .bottompen div {
+  display: flex;
+  width: 96px;
+  height: 24px;
+  padding: 8px;
+  align-items: flex-start;
+  gap: 8px;
+  flex-shrink: 0;
+}
+body #pen #pen_stap_1 .bottompen div div {
+  width: 16px;
+  max-height: 8px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+body #pen #pen_stap_1 .bottompen div .actieveslide {
+  width: 32px;
+  max-height: 8px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  background-color: #fff;
+}
+body #pen #pen_stap_1 .bottompen a {
+  display: flex;
+  padding: 8px 0 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+body #pen #pen_stap_1 .bottompen a p {
+  color: #FA9;
+  text-align: center;
+  font-family: monospace, "Roboto Mono";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration-line: underline;
+}
+body #pen #pen_stap_1 .bottompen a svg {
+  width: 14px;
+  height: 14px;
+}
+body #pen #pen_stap_2 {
+  display: none;
+  width: 312px;
+  height: 676px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 0;
+}
+body #pen #pen_stap_2 #mainpenstap2 img {
+  width: 333px;
+  height: 352px;
+  flex-shrink: 0;
+}
+body #pen #pen_stap_2 #mainpenstap2 .welcome {
+  width: 312px;
+  height: 16px;
+  flex-shrink: 0;
+  color: #D1B7FF;
+  text-align: right;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  margin-left: 30px;
+}
+body #pen #pen_stap_2 #mainpenstap2 h1 {
+  width: 312px;
+  color: #F7F7F5;
+  text-align: right;
+  font-family: monospace, "Roboto Mono";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  margin-left: 30px;
+}
+body #pen #pen_stap_2 #mainpenstap2 p {
+  width: 311px;
+  color: #ECECEC;
+  font-family: monospace, "Roboto Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin-left: 30px;
+}
+body #pen #pen_stap_2 .bottompen {
+  display: flex;
+  width: 311px;
+  height: 36px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  margin-top: 100px;
+  margin-left: 30px;
+}
+body #pen #pen_stap_2 .bottompen div {
+  display: flex;
+  width: 96px;
+  height: 24px;
+  padding: 8px;
+  align-items: flex-start;
+  gap: 8px;
+  flex-shrink: 0;
+}
+body #pen #pen_stap_2 .bottompen div div {
+  width: 16px;
+  max-height: 8px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+body #pen #pen_stap_2 .bottompen div .actieveslide {
+  width: 32px;
+  max-height: 8px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  background-color: #fff;
+}
+body #pen #pen_stap_2 .bottompen a {
+  display: flex;
+  padding: 8px 0 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+body #pen #pen_stap_2 .bottompen a p {
+  color: #FA9;
+  text-align: center;
+  font-family: monospace, "Roboto Mono";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration-line: underline;
+}
+body #pen #pen_stap_2 .bottompen a svg {
+  width: 14px;
+  height: 14px;
+}
+body #pen #pen_stap_3 {
+  display: none;
+  width: 400px;
+  height: 676px;
+  flex-shrink: 0;
+  position: absolute;
+  top: 0;
+  margin: 36px 0 0 30px;
+}
+body #pen #pen_stap_3 #mainpenstap3 img {
+  width: 333px;
+  height: 352px;
+  flex-shrink: 0;
+  margin-left: 31.5px;
+}
+body #pen #pen_stap_3 #mainpenstap3 .welcome {
+  width: 312px;
+  height: 16px;
+  flex-shrink: 0;
+  color: #D1B7FF;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+body #pen #pen_stap_3 #mainpenstap3 h1 {
+  width: 312px;
+  color: #F7F7F5;
+  font-family: monospace, "Roboto Mono";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+body #pen #pen_stap_3 #mainpenstap3 p {
+  width: 311px;
+  color: #ECECEC;
+  font-family: monospace, "Roboto Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+body #pen #pen_stap_3 #bottomstap3pen button {
+  display: flex;
+  border: none;
+  padding: 8px 16px;
+  justify-self: center;
+  align-self: center;
+  gap: 8px;
+  width: 81px;
+  height: 40px;
+  border-radius: 100px;
+  background: #F7F7F5;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
+  margin: 80px 130px 20px 130px;
+}
+body #pen #pen_stap_3 #bottomstap3pen button span {
+  text-align: center;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  background: linear-gradient(90deg, #D1B7FF 0%, #FF5635 100%);
+  background-clip: text;
+  color: transparent;
+}
+body #pen #pen_stap_3 #bottomstap3pen div {
+  display: flex;
+  width: 96px;
+  height: 24px;
+  padding: 8px;
+  align-items: flex-start;
+  gap: 8px;
+  flex-shrink: 0;
+}
+body #pen #pen_stap_3 #bottomstap3pen div div {
+  width: 16px;
+  max-height: 8px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+body #pen #pen_stap_3 #bottomstap3pen div .actieveslide {
+  width: 32px;
+  max-height: 8px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  background-color: #fff;
+}
+body #pijltoetsenpen, body #pijltoetsenconnect {
+  display: none;
+  margin: 0 850px;
+}
+body #pijltoetsenpen button, body #pijltoetsenconnect button {
+  width: 50px;
+  height: 50px;
+  background-color: #fff;
+  border-radius: 100%;
+  border: none;
+  font-size: 30px;
+  font-family: monospace, "Roboto Mono";
+}
+body #bluetooth {
+  display: none;
+  width: 393px;
+  height: 770px;
+  flex-shrink: 0;
+  border-radius: 32px 32px 0 0;
+  background: #D1B7FF;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
+  position: absolute;
+  top: 120px;
+  left: 700px;
+}
+body #bluetooth #bluetooth_stap_1 {
+  width: 312px;
+  height: 676px;
+  flex-shrink: 0;
+  margin-left: 20px;
+}
+body #bluetooth #bluetooth_stap_1 #mainconnect1 img {
+  width: 351px;
+  height: 352px;
+  flex-shrink: 0;
+}
+body #bluetooth #bluetooth_stap_1 #mainconnect1 .step {
+  width: 312px;
+  height: 16px;
+  color: #FF5635;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  margin-left: 25px;
+}
+body #bluetooth #bluetooth_stap_1 #mainconnect1 h1 {
+  width: 312px;
+  color: #F7F7F5;
+  font-family: monospace, "Roboto Mono";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  margin-left: 25px;
+}
+body #bluetooth #bluetooth_stap_1 #mainconnect1 p {
+  width: 311px;
+  color: #F7F7F5;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin-left: 25px;
+}
+body #bluetooth #bluetooth_stap_1 #bottomconnect1 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 120px;
+}
+body #bluetooth #bluetooth_stap_1 #bottomconnect1 div {
+  display: flex;
+  width: 96px;
+  height: 24px;
+  padding: 8px;
+  align-items: flex-start;
+  gap: 8px;
+  flex-shrink: 0;
+}
+body #bluetooth #bluetooth_stap_1 #bottomconnect1 div div {
+  width: 16px;
+  max-height: 8px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+body #bluetooth #bluetooth_stap_1 #bottomconnect1 div .actieveslide {
+  width: 32px;
+  max-height: 8px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  background-color: #fff;
+}
+body #bluetooth #bluetooth_stap_2 {
+  display: none;
+  width: 312px;
+  height: 676px;
+  flex-shrink: 0;
+  margin-left: 37px;
+  position: absolute;
+  top: 0;
+}
+body #bluetooth #bluetooth_stap_2 #mainconnect2 img {
+  width: 360px;
+  height: 352px;
+  flex-shrink: 0;
+}
+body #bluetooth #bluetooth_stap_2 #mainconnect2 .step {
+  width: 312px;
+  height: 16px;
+  color: #FF5635;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+body #bluetooth #bluetooth_stap_2 #mainconnect2 h1 {
+  width: 312px;
+  color: #F7F7F5;
+  font-family: monospace, "Roboto Mono";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+body #bluetooth #bluetooth_stap_2 #mainconnect2 p {
+  width: 311px;
+  color: #F7F7F5;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+body #bluetooth #bluetooth_stap_2 #bottomconnect2 {
+  display: flex;
+  justify-content: center;
+  align-content: center;
+  margin-top: 100px;
+}
+body #bluetooth #bluetooth_stap_2 #bottomconnect2 div {
+  display: flex;
+  width: 96px;
+  height: 24px;
+  padding: 8px;
+  align-items: flex-start;
+  gap: 8px;
+  flex-shrink: 0;
+}
+body #bluetooth #bluetooth_stap_2 #bottomconnect2 div div {
+  width: 16px;
+  max-height: 8px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+body #bluetooth #bluetooth_stap_2 #bottomconnect2 div .actieveslide {
+  width: 32px;
+  max-height: 8px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  background-color: #fff;
+}
+body #bluetooth #bluetooth_stap_3 {
+  display: none;
+  width: 312px;
+  height: 676px;
+  flex-shrink: 0;
+  margin-left: 37px;
+  position: absolute;
+  top: 0;
+}
+body #bluetooth #bluetooth_stap_3 #mainconnect3 img {
+  width: 385px;
+  height: 352px;
+  flex-shrink: 0;
+}
+body #bluetooth #bluetooth_stap_3 #mainconnect3 .step {
+  width: 312px;
+  height: 16px;
+  color: #FF5635;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+body #bluetooth #bluetooth_stap_3 #mainconnect3 h1 {
+  width: 312px;
+  color: #F7F7F5;
+  font-family: monospace, "Roboto Mono";
+  font-size: 24px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+}
+body #bluetooth #bluetooth_stap_3 #mainconnect3 p {
+  width: 311px;
+  color: #F7F7F5;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+body #bluetooth #bluetooth_stap_3 #bottomconnect3 {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-content: center;
+  margin-top: 100px;
+}
+body #bluetooth #bluetooth_stap_3 #bottomconnect3 button {
+  padding: 8px 16px;
+  justify-self: center;
+  align-self: center;
+  gap: 8px;
+  border-radius: 100px;
+  background: #F7F7F5;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
+  width: 142px;
+  border: none;
+}
+body #bluetooth #bluetooth_stap_3 #bottomconnect3 button span {
+  text-align: center;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+  background: linear-gradient(90deg, #D1B7FF 0%, #FF5635 100%);
+  background-clip: text;
+  color: transparent;
+}
+body #bluetooth #bluetooth_stap_3 #bottomconnect3 #stap3 {
+  display: flex;
+  width: 311px;
+  justify-content: center;
+  align-items: center;
+  gap: 88px;
+  margin-top: 20px;
+}
+body #bluetooth #bluetooth_stap_3 #bottomconnect3 #stap3 div {
+  display: flex;
+  width: 96px;
+  height: 24px;
+  padding: 8px;
+  align-items: flex-start;
+  gap: 8px;
+  flex-shrink: 0;
+}
+body #bluetooth #bluetooth_stap_3 #bottomconnect3 #stap3 div div {
+  width: 16px;
+  max-height: 8px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  background-color: rgba(255, 255, 255, 0.5);
+}
+body #bluetooth #bluetooth_stap_3 #bottomconnect3 #stap3 div .actieveslide {
+  width: 32px;
+  max-height: 8px;
+  flex-shrink: 0;
+  border-radius: 7px;
+  background-color: #fff;
+}
+body #bluetooth #newdevice {
+  display: none;
+  width: 299px;
+  height: 201px;
+  flex-shrink: 0;
+  border-radius: 32px;
+  background: #ECECEC;
+  box-shadow: 4px 8px 12px 0 rgba(0, 0, 0, 0.08);
+  flex-direction: column;
+  justify-content: space-between;
+  position: absolute;
+  top: 250px;
+  left: 47px;
+}
+body #bluetooth #newdevice #newinfo {
+  display: flex;
+  width: 298px;
+  height: 96px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 12px;
+  flex-shrink: 0;
+}
+body #bluetooth #newdevice #newinfo h6 {
+  color: #0C8BD3;
+  font-family: sans-serif, "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  margin-top: 50px;
+}
+body #bluetooth #newdevice #newinfo p {
+  width: 260px;
+  color: #000;
+  text-align: center;
+  font-family: sans-serif, "Open Sans";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+body #bluetooth #newdevice div {
+  width: 299px;
+  height: 52px;
+  border-top: 1px solid #cfcfcf;
+  display: flex;
+  justify-content: space-evenly;
+}
+body #bluetooth #newdevice div #decline {
+  display: flex;
+  width: 152px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: #AFAFAF;
+  font-family: sans-serif, "Open Sans";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+  border-right: 1px solid #cfcfcf;
+}
+body #bluetooth #newdevice div #allow {
+  display: flex;
+  width: 146px;
+  padding: 16px 32px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  color: #0C8BD3;
+  font-family: sans-serif, "Open Sans";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 20px;
+}
+body #succes {
+  display: none;
+  width: 393px;
+  height: 770px;
+  flex-shrink: 0;
+  border-radius: 32px 32px 0 0;
+  background: #D1B7FF;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
+  position: absolute;
+  top: 120px;
+  left: 700px;
+}
+body #succes #succesinfo {
+  width: 312px;
+  height: 676px;
+  flex-shrink: 0;
+}
+body #succes #succesinfo img {
+  width: 388px;
+  height: 352px;
+  flex-shrink: 0;
+  margin-left: 7px;
+}
+body #succes #succesinfo .step {
+  width: 312px;
+  height: 16px;
+  color: #FF5635;
+  text-align: center;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  margin: 10px 40px 0 40px;
+}
+body #succes #succesinfo h1 {
+  width: 312px;
+  color: #F7F7F5;
+  text-align: center;
+  font-family: monospace, "Roboto Mono";
+  font-size: 32px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 32px;
+  margin-left: 40px;
+}
+body #succes #succesinfo p {
+  width: 311px;
+  color: #F7F7F5;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin: 20px 40px;
+}
+body #succes #loading {
+  display: flex;
+  padding: 8px 16px 8px 0;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+body #succes #loading p {
+  color: #E7DAFF;
+  text-align: center;
+  font-family: monospace, "Roboto Mono";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration-line: underline;
+}
+body #succes #loading svg {
+  width: 14px;
+  height: 14px;
+}
+body #calib_start {
+  display: none;
+  width: 393px;
+  height: 790px;
+  padding: 72px 40px 66px 41px;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: center;
+  background: #F5F5F5;
+  position: absolute;
+  top: 100px;
+  left: 700px;
+}
+body #calib_start #calibmain h6 {
+  width: 312px;
+  height: 16px;
+  flex-shrink: 0;
+  color: #C4BFBF;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+  margin-left: 40px;
+}
+body #calib_start #calibmain h1 {
+  width: 312px;
+  font-family: monospace, "Roboto Mono";
+  font-size: 48px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 48px;
+  background: linear-gradient(90deg, #D1B7FF 0%, #FF5635 100%);
+  background-clip: text;
+  color: transparent;
+  margin-left: 40px;
+}
+body #calib_start #calibmain img {
+  width: 392px;
+  height: 392px;
+  flex-shrink: 0;
+}
+body #calib_start #calibmain p {
+  width: 240px;
+  height: 104.142px;
+  flex-shrink: 0;
+  color: #C4BFBF;
+  font-family: monospace, "Roboto Mono";
+  font-size: 16px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  margin-left: 40px;
+}
+body #calib_start #calibbottom {
+  margin-top: 50px;
+  display: flex;
+  width: 311px;
+  height: 37.491px;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+}
+body #calib_start #calibbottom div {
+  display: flex;
+  padding: 8px 0;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+body #calib_start #calibbottom div p {
+  color: #FA9;
+  text-align: center;
+  font-family: monospace, "Roboto Mono";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+  text-decoration-line: underline;
+}
+body #calib_start #calibbottom div svg {
+  width: 14px;
+  height: 14px;
+  color: #FA9;
+}
+body #calib_start #calibbottom button {
+  display: flex;
+  padding: 8px 16px;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+  border-radius: 100px;
+  background: linear-gradient(90deg, #D1B7FF 0%, #FF5635 100%);
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
+  border: none;
+}
+body #calib_start #calibbottom button span {
+  color: #F7F7F5;
+  text-align: center;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 24px;
+}
+body #statisch_scherm2 {
+  display: none;
+  position: absolute;
+  background-color: #F5F5F5;
+  width: 393px;
+  height: 790px;
+  margin: 100px 700px;
+  overflow-x: hidden;
+  overflow-y: auto;
+  z-index: 1;
+}
+body #statisch_scherm2 header {
+  margin: 80px 40px 20px 40px;
+  width: 312px;
+  height: 50px;
+}
+body #statisch_scherm2 header div {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  height: 20px;
+}
+body #statisch_scherm2 header div h2 {
+  color: #C4BFBF;
+  font-family: monospace, "Roboto Mono";
+  font-size: 18px;
+  line-height: 20px;
+}
+body #statisch_scherm2 header div svg {
+  width: 20px;
+  height: 20px;
+  color: #C4BFBF;
+}
+body #statisch_scherm2 header h1 {
+  font-family: monospace, "Roboto Mono";
+  font-size: 32px;
+  line-height: 32px;
+  background: linear-gradient(90deg, #D1B7FF 0%, #FF5635 100%);
+  background-clip: text;
+  color: transparent;
+}
+body #statisch_scherm2 .producten {
+  margin: 0 0 20px 40px;
+  width: 312px;
+  display: flex;
+  flex-direction: row;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+body #statisch_scherm2 .producten .product {
+  display: flex;
+  min-width: 272px;
+  max-width: 272px;
+  min-height: 134px;
+  max-height: 134px;
+  padding: 8px;
+  margin-right: 10px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: 42px;
+  border-radius: 8px;
+  background-image: url("assets/background1.png");
+  background-position: center;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
+}
+body #statisch_scherm2 .producten .product svg {
+  width: 16px;
+  height: 16px;
+  color: #C4BFBF;
+}
+body #statisch_scherm2 .producten .product div {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-end;
+  align-items: flex-end;
+}
+body #statisch_scherm2 .producten .product div h6 {
+  color: #FA9;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+}
+body #statisch_scherm2 .producten .product div h5 {
+  color: #150101;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+body #statisch_scherm2 .producten .product div div {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-items: center;
+  gap: 8px;
+}
+body #statisch_scherm2 .producten .product div div svg {
+  width: 7px;
+  height: 7px;
+  fill: #7BF243;
+}
+body #statisch_scherm2 .producten .product div div p {
+  color: #C4BFBF;
+  font-family: monospace, "Roboto Mono";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+body #statisch_scherm2 .producten #nieuw, body #statisch_scherm2 .producten .nieuw {
+  display: flex;
+  min-width: 272px;
+  max-width: 272px;
+  min-height: 134px;
+  max-height: 134px;
+  padding: 8px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-end;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background-image: url("assets/background1.png");
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
+}
+body #statisch_scherm2 .producten #nieuw svg, body #statisch_scherm2 .producten .nieuw svg {
+  width: 16.667px;
+  height: 16.667px;
+  flex-shrink: 0;
+  color: #C4BFBF;
+}
+body #statisch_scherm2 .producten #nieuw div, body #statisch_scherm2 .producten .nieuw div {
+  display: flex;
+  height: 77px;
+  padding: 0 0 8px 32px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  flex-shrink: 0;
+  align-self: stretch;
+}
+body #statisch_scherm2 .producten #nieuw div svg, body #statisch_scherm2 .producten .nieuw div svg {
+  width: 24px;
+  height: 24px;
+  flex-shrink: 0;
+  color: black;
+}
+body #statisch_scherm2 .producten #nieuw div h6, body #statisch_scherm2 .producten .nieuw div h6 {
+  color: #FA9;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 16px;
+}
+body #statisch_scherm2 .producten #nieuw div h5, body #statisch_scherm2 .producten .nieuw div h5 {
+  color: #150101;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+body #statisch_scherm2 .producten #nieuw:hover, body #statisch_scherm2 .producten .nieuw:hover {
+  border: 1.5px solid #FFAA99;
+}
+body #statisch_scherm2 h3 {
+  color: #4F4141;
+  font-family: monospace, "Roboto Mono";
+  font-size: 18px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 20px;
+  margin-left: 40px;
+}
+body #statisch_scherm2 .newprojecten {
+  display: flex;
+  width: 352px;
+  height: 80px;
+  align-content: center;
+  gap: 8px;
+  margin-left: 40px;
+  overflow-x: auto;
+  overflow-y: hidden;
+}
+body #statisch_scherm2 .newprojecten .newproject {
+  display: flex;
+  width: 185px;
+  height: 68px;
+  padding: 20px;
+  justify-content: center;
+  align-items: center;
+  flex-shrink: 0;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
+}
+body #statisch_scherm2 .newprojecten .newproject svg {
+  width: 24px;
+  height: 24px;
+  margin-right: 20px;
+  flex-shrink: 0;
+  color: black;
+}
+body #statisch_scherm2 .newprojecten .newproject div {
+  display: flex;
+  width: 93px;
+  height: 36px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+body #statisch_scherm2 .newprojecten .newproject div h5 {
+  color: #4F4141;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+body #statisch_scherm2 .newprojecten .newproject div h6 {
+  color: #FA9;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+}
+body #statisch_scherm2 .newprojecten .formaten {
+  display: flex;
+  width: 185px;
+  height: 68px;
+  padding: 16px 12px 16px 24px;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-shrink: 0;
+  border-radius: 8px;
+  background: #FF5635;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
+}
+body #statisch_scherm2 .newprojecten .formaten .box {
+  width: 42px;
+  height: 52px;
+  flex-shrink: 0;
+  background: #F7F7F5;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
+}
+body #statisch_scherm2 .newprojecten .formaten div {
+  display: flex;
+  width: 93px;
+  height: 36px;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: flex-start;
+  flex-shrink: 0;
+}
+body #statisch_scherm2 .newprojecten .formaten div h5 {
+  color: #4F4141;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+body #statisch_scherm2 .newprojecten .formaten div h6 {
+  color: #F7F7F5;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 700;
+  line-height: 16px;
+  font-variant: small-caps;
+}
+body #statisch_scherm2 .projecten {
+  width: 313px;
+  height: 392px;
+  flex-shrink: 0;
+  margin: 20px 40px;
+}
+body #statisch_scherm2 .projecten div {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  margin: 4px 0;
+}
+body #statisch_scherm2 .projecten div img {
+  width: 112px;
+  height: 72px;
+  border-radius: 8px;
+}
+body #statisch_scherm2 .projecten div div {
+  display: flex;
+  width: 192px;
+  height: 36px;
+  padding-right: 8px;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-end;
+}
+body #statisch_scherm2 .projecten div div h5 {
+  color: #4F4141;
+  font-family: monospace, "Roboto Mono";
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  line-height: 20px;
+}
+body #statisch_scherm2 .projecten div div p {
+  color: #D1B7FF;
+  font-family: monospace, "Roboto Mono";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+body #statisch_scherm2 nav {
+  position: fixed;
+  bottom: 200px;
+  margin: 0 40px;
+  width: 312px;
+  display: flex;
+  padding: 4px 20px;
+  justify-content: space-between;
+  align-content: center;
+  gap: 8px;
+  border-radius: 8px;
+  background: #F7F7F5;
+  box-shadow: 4px 8px 16px 0 rgba(0, 0, 0, 0.03);
+}
+body #statisch_scherm2 nav div {
+  display: flex;
+  width: 80px;
+  padding: 8px;
+  flex-direction: column;
+  align-items: center;
+}
+body #statisch_scherm2 nav div svg {
+  width: 32px;
+  height: 32px;
+  flex-shrink: 0;
+}
+body #statisch_scherm2 nav div h5 {
+  color: #4F4141;
+  text-align: center;
+  font-family: monospace, "Roboto Mono";
+  font-size: 12px;
+  font-style: normal;
+  font-weight: 500;
+  line-height: 16px;
+}
+
+/*# sourceMappingURL=style.css.map */
