@@ -690,10 +690,11 @@ body {
           line-height: 48px;
         }
 
-        img {
+        lottie-player {
           width: 366px;
           height: 352px;
           flex-shrink: 0;
+          margin-left: 5px;
         }
 
         p {
@@ -722,7 +723,7 @@ body {
       margin: 80px 0 0 0;
 
       #mainpenstap2 {
-        img {
+        lottie-player {
           width: 333px;
           height: 352px;
           flex-shrink: 0;
@@ -782,7 +783,7 @@ body {
       margin: 70px 0 0 30px;
 
       #mainpenstap3 {
-        img {
+        lottie-player {
           width: 333px;
           height: 352px;
           flex-shrink: 0;
@@ -918,7 +919,7 @@ body {
       margin: 80px 20px 0 20px;
 
       #mainconnect1 {
-        img {
+        lottie-player {
           width: 351px;
           height: 352px;
           flex-shrink: 0;
@@ -1003,7 +1004,7 @@ body {
       top: 80px;
 
       #mainconnect2 {
-        img {
+        lottie-player {
           width: 360px;
           height: 352px;
           flex-shrink: 0;
@@ -1085,7 +1086,7 @@ body {
       top: 80px;
 
       #mainconnect3 {
-        img {
+        lottie-player {
           width: 385px;
           height: 352px;
           flex-shrink: 0;
@@ -1297,11 +1298,11 @@ body {
       flex-shrink: 0;
       margin-top: 80px;
 
-      img {
+      lottie-player {
         width: 388px;
         height: 352px;
         flex-shrink: 0;
-        margin-left: 7px;
+        margin-left: 24px;
       }
 
       .step {
@@ -1407,7 +1408,7 @@ body {
         margin-left: 40px;
       }
 
-      img {
+      lottie-player {
         width: 392px;
         height: 392px;
         flex-shrink: 0;

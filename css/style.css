@@ -566,10 +566,11 @@ body #pen #pen_stap_1 #mainpenstap1 h1 {
   font-weight: 500;
   line-height: 48px;
 }
-body #pen #pen_stap_1 #mainpenstap1 img {
+body #pen #pen_stap_1 #mainpenstap1 lottie-player {
   width: 366px;
   height: 352px;
   flex-shrink: 0;
+  margin-left: 5px;
 }
 body #pen #pen_stap_1 #mainpenstap1 p {
   color: #ECECEC;
@@ -642,7 +643,7 @@ body #pen #pen_stap_2 {
   top: 0;
   margin: 80px 0 0 0;
 }
-body #pen #pen_stap_2 #mainpenstap2 img {
+body #pen #pen_stap_2 #mainpenstap2 lottie-player {
   width: 333px;
   height: 352px;
   flex-shrink: 0;
@@ -744,7 +745,7 @@ body #pen #pen_stap_3 {
   top: 0;
   margin: 70px 0 0 30px;
 }
-body #pen #pen_stap_3 #mainpenstap3 img {
+body #pen #pen_stap_3 #mainpenstap3 lottie-player {
   width: 333px;
   height: 352px;
   flex-shrink: 0;
@@ -863,7 +864,7 @@ body #bluetooth #bluetooth_stap_1 {
   flex-shrink: 0;
   margin: 80px 20px 0 20px;
 }
-body #bluetooth #bluetooth_stap_1 #mainconnect1 img {
+body #bluetooth #bluetooth_stap_1 #mainconnect1 lottie-player {
   width: 351px;
   height: 352px;
   flex-shrink: 0;
@@ -937,7 +938,7 @@ body #bluetooth #bluetooth_stap_2 {
   position: absolute;
   top: 80px;
 }
-body #bluetooth #bluetooth_stap_2 #mainconnect2 img {
+body #bluetooth #bluetooth_stap_2 #mainconnect2 lottie-player {
   width: 360px;
   height: 352px;
   flex-shrink: 0;
@@ -1008,7 +1009,7 @@ body #bluetooth #bluetooth_stap_3 {
   position: absolute;
   top: 80px;
 }
-body #bluetooth #bluetooth_stap_3 #mainconnect3 img {
+body #bluetooth #bluetooth_stap_3 #mainconnect3 lottie-player {
   width: 385px;
   height: 352px;
   flex-shrink: 0;
@@ -1198,11 +1199,11 @@ body #succes #succesinfo {
   flex-shrink: 0;
   margin-top: 80px;
 }
-body #succes #succesinfo img {
+body #succes #succesinfo lottie-player {
   width: 388px;
   height: 352px;
   flex-shrink: 0;
-  margin-left: 7px;
+  margin-left: 24px;
 }
 body #succes #succesinfo .step {
   width: 312px;
@@ -1296,7 +1297,7 @@ body #calib_start #calibmain h1 {
   color: transparent;
   margin-left: 40px;
 }
-body #calib_start #calibmain img {
+body #calib_start #calibmain lottie-player {
   width: 392px;
   height: 392px;
   flex-shrink: 0;
