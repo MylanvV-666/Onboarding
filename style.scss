@@ -1486,6 +1486,22 @@ body {
     }
   }
 
+  #video {
+    display: none;
+    width: 393px;
+    height: 852px;
+    padding: 0;
+    flex-direction: column;
+    justify-content: flex-end;
+    align-items: center;
+    background: #F5F5F5;
+    position: absolute;
+    bottom: 100px;
+    left: 701px;
+    border-radius: 32px;
+    overflow: hidden;
+  }
+
   #statisch_scherm2 {
     display: none;
     position: absolute;

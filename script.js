@@ -28,6 +28,7 @@ let calibrerenvoorscherm = document.getElementById("calib_start");
 let buttoncalibreren = document.getElementById("buttoncalib");
 let statischschermmetpen = document.getElementById("statisch_scherm2");
 let statischscherm = document.getElementById("statisch_scherm1");
+let calVideo = document.getElementById("video");
 
 /*clicks*/
 nieuwProductKnop.addEventListener("click", selectAddOnvisible);
@@ -44,7 +45,9 @@ pairing.addEventListener("click", overlay);
 decline.addEventListener("click", backtoconnect3);
 allow.addEventListener("click", tosucces);
 succes.addEventListener("click", afterdelay);
-buttoncalibreren.addEventListener("click", end)
+buttoncalibreren.addEventListener("click", video);
+calVideo.addEventListener("click",end);
+
 
 /*functies*/
 function selectAddOnvisible() {
@@ -169,14 +172,25 @@ function afterdelay() {
 
 }
 
-function end() {
+function video() {
     calibrerenvoorscherm.style.animationName="beneden";
     calibrerenvoorscherm.style.animationDuration="0.5s";
     calibrerenvoorscherm.style.overflow="hidden";
     calibrerenvoorscherm.style.display="none";
+    calVideo.style.animationName="omhoog";
+    calVideo.style.animationDuration="0.5s";
+    calVideo.style.display="block";
+}
+
+function end() {
+    calVideo.style.animationName="beneden";
+    calVideo.style.animationDuration="0.5s";
+    calVideo.style.overflow="hidden";
+    calVideo.style.display="none";
     statischschermmetpen.style.animationName="omhoog";
     statischschermmetpen.style.animationDuration="0.5s";
     statischschermmetpen.style.display="block";
+    calibrerenvoorscherm.style.display="none";
     scribbl.style.display="none";
     pen.style.display="none";
     selectAddOn.style.display="none";
